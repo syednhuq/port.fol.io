@@ -1,5 +1,6 @@
 body {
     font-family: Lato
+    background-image: url("../img/header.jpg");
 }
 
 h1,
@@ -102,7 +103,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-    color: #fff
+    color: #fff;
 }
 
 #mainNav .navbar-nav {
@@ -221,7 +222,7 @@ header.masthead h2 {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background-color: rgba(24, 188, 156, .9)
+    background-color: rgba(0, 0, 0, 0.37)
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -308,8 +309,8 @@ header.masthead h2 {
     -moz-transition: top .3s ease, opacity .3s ease;
     -ms-transition: top .3s ease, opacity .3s ease;
     transition: top .3s ease, opacity .3s ease;
-    vertical-align: middle;
-    vertical-align: baseline;
+    /* vertical-align: middle; */
+    /* vertical-align: baseline; */
     opacity: 0
 }
 
@@ -334,12 +335,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #290650;
+    background-color: #050105;
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f;
+    background-color: #1a041a;
     font-size: 20pt;
 }
 
@@ -359,10 +360,12 @@ a:hover {
 
 .bg-primary {
     background-color: #000000 !important
+    /* background-image: url("../img/1010.jpg"); */
 }
 
 .bg-secondary {
     background-color: #290650 !important
+    /* background-image: url("../img/header.jpg"); */
 }
 
 .text-primary {
@@ -455,6 +458,7 @@ a:hover {
 }
 
 /* email section */
+
 /* 
 .input-group {
     display: -ms-flexbox;
@@ -472,6 +476,7 @@ a:hover {
 .input-group> :last-child>* {
     border-radius: 0 0 0 0;
 } */
+
 /* 
 .input-group-label,
 .input-group-field,
@@ -491,6 +496,7 @@ a:hover {
 .input-group-label:last-child {
     border-left: 0;
 } */
+
 .input-group-label {
     /* border-radius: 50%; */
     padding: 0 1rem;
@@ -533,9 +539,8 @@ a:hover {
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
+    /* appearance: none; */
     text-align: center;
-
 }
 
 .input-group-button {
@@ -570,4 +575,5 @@ a:hover {
 .button {
     background-color: #18030f;
     color: #e0adad;
+    border: 1px solid #cacaca;
 }
